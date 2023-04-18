@@ -10,6 +10,8 @@ repositories, combining them to enable fabric development for the Better Than Wo
 * Acquire the full BTW sources and put them under `src/btw/java` 
 * (Optional) Put the BTW resources (textures, etc.) under `src/btw/resources`
 * Run the gradle task *btwJar*
+	   - `gradlew btwJar` in the shell/command-line
+	   - If using intelliJ, there is a list of all available gradle tasks in the menu on the top of the right side, which you can just double click the task from (recommended).
 * Run the gradle task *build* and then *runClient*
 * (Optional) Put the vanilla MC resources (sounds) under `run/resources`
 
